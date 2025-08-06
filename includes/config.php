@@ -3,11 +3,11 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', ''); // Nunca dejes vacío en producción
-define('DB_NAME', 'motivacion_db');
+define('DB_NAME', 'database.db'); //Colocar el nombre de la base de datos correspondiente
 
 // Configuración de correo (usando contraseña de aplicación)
-define('MAIL_FROM', 'softwaremaick@gmail.com'); // Sin la contraseña aquí
-define('MAIL_PASS', 'ietb xzip fxgv ipbc'); // Usa la contraseña de aplicación
+define('MAIL_FROM', 'correo@gmail.com'); // Colocar correo electronico aquí
+define('MAIL_PASS', 'xxxx xxxx xxxx xxxx'); // Usa la contraseña de aplicación dada en "https://myaccount.google.com/apppasswords"
 define('MAIL_HOST', 'smtp.gmail.com');
 define('MAIL_PORT', 587);
 define('MAIL_SECURE', 'tls'); // Añade esto para mayor seguridad
@@ -28,3 +28,4 @@ try {
     die("Error en el sistema. Por favor intenta más tarde.");
 }
 ?>
+
